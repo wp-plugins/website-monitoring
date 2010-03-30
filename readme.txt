@@ -1,9 +1,9 @@
 === Website Monitoring ===
 Contributors: siteimpulse
 Tags: website,uptime,availability,monitoring,alerts,notifications,website-monitoring
-Requires at least: 2.7
+Requires at least: 2.2
 Tested up to: 2.9.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 Start to monitor your blog's uptime with www.website-monitoring.com services - and have all the charts and tables displayed in your WordPress panel.
 
@@ -33,6 +33,8 @@ If you are not using website-monitoring.com services yet, you need to sign up fo
 
 == Changelog ==
 
+= 1.1 =
+* WordPress compatibility extended down to version 2.2.
+
 = 1.0 =
 * The first public version.
-

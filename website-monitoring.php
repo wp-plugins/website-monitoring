@@ -5,7 +5,7 @@ Plugin URI: http://www.website-monitoring.com/?ps=10
 Description: Start to monitor your blog's uptime with www.website-monitoring.com services - and have all the charts and tables displayed in your WordPress panel.
 Author: SITEIMPULSE
 Author URI: http://www.siteimpulse.eu/
-Version: 1.0
+Version: 1.1
 */
 
 if ( !defined( 'WP_CONTENT_URL' ) )
@@ -27,7 +27,7 @@ if ( !defined( 'WP_PLUGIN_DIR' ) )
 
 		if ( $data["username"] != '' ) {
 
-	        add_menu_page('Website Monitoring', 'Website Monitoring', 10, 'wmmenu',"", WP_PLUGIN_URL . '/website-monitoring/wm2.png' );
+	        add_menu_page('Website Monitoring', 'Website Monitoring', 10, 'wmmenu',"wmservicesPage", WP_PLUGIN_URL . '/website-monitoring/wm2.png' );
 	        add_submenu_page( 'wmmenu', 'Website Monitoring', 'Your Services', 'administrator', 'wmmenu', "wmservicesPage" );
 	        add_submenu_page( 'wmmenu', 'Website Monitoring', 'Your Settings', 'administrator', 'wmmenu1', "wmsettingsPage" );
 
