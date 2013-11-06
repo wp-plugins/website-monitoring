@@ -1,4 +1,4 @@
-=== Website Monitoring ===
+=== Super Monitoring ===
 Contributors: siteimpulse
 Tags: website monitoring,uptime,availability,monitoring,alerts,notifications
 Requires at least: 2.2
