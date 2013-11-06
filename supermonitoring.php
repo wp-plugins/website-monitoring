@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Super Monitoring
-Plugin URI: http://www.supermonitoringstron.com/p/wordpress-plugin
+Plugin URI: http://www.supermonitoring.com/p/wordpress-plugin
 Description: Monitor your blog's uptime with www.supermonitoring.com services - and have all the charts and tables displayed in your WordPress panel. 
 Author: SITEIMPULSE
 Author URI: http://www.siteimpulse.com/
-Version: 2.0
+Version: 2.1
 */
 
 if ( !defined( 'WP_CONTENT_URL' ) )
