@@ -31,7 +31,7 @@ if ( !defined( 'WP_PLUGIN_DIR' ) )
 
 		if ( $data["token"] != '' ) {
 
-	        add_menu_page('Super Monitoring', 'Super Monitoring', 10, 'msmenu',"msservicesPage", WP_PLUGIN_URL . '/supermonitoring/screen.png' );
+	        add_menu_page('Super Monitoring', 'Super Monitoring', 10, 'msmenu',"msservicesPage", WP_PLUGIN_URL . '/website-monitoring/screen.png' );
 	        add_submenu_page( 'msmenu', 'Super Monitoring', $lang['menu_1'], 'administrator', 'msmenu', "msservicesPage" );
 	        add_submenu_page( 'msmenu', 'Super Monitoring', $lang['menu_2'], 'administrator', 'msmenu1', "mssettingPage" );
 		add_submenu_page( 'msmenu', 'Super Monitoring', $lang['menu_3'], 'administrator', 'msmenu2', "mscontactsPage" );

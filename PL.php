@@ -1,6 +1,6 @@
 <?
 // SETTINGS PAGE
-$lang['sett_0'] = "Wtyczka <strong>Super Monitoring</strong> jest prawie gotowa. Trzeba ją jeszcze <a href=\"options-general.php?page=supermonitoring/supermonitoring.php\">skonfigurować</a>.";
+$lang['sett_0'] = "Wtyczka <strong>Super Monitoring</strong> jest prawie gotowa. Trzeba ją jeszcze <a href=\"options-general.php?page=website-monitoring/supermonitoring.php\">skonfigurować</a>.";
 $lang['sett_1'] = 'Super Monitoring - ustawienia wtyczki';
 $lang['sett_2'] = 'Jeżeli posiadasz już usługę w serwisie www.supermonitoring.pl, wprowadź token żeby zintegrować ją z panelem WordPress.';
 $lang['sett_3'] = 'Token autoryzacyjny:';

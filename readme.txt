@@ -1,9 +1,9 @@
 === Super Monitoring ===
 Contributors: siteimpulse
-Tags: website monitoring,uptime,availability,monitoring,alerts,notifications
+Tags: website monitoring,uptime,availability,monitoring,alerts,notifications,reports,sla
 Requires at least: 2.2
-Tested up to: 3.7.1
-Stable tag: 2.1
+Tested up to: 4.1
+Stable tag: 2.2
 
 Monitor your blog's uptime with www.supermonitoring.com services - and have all the charts and tables displayed in your WordPress panel.
 
@@ -33,6 +33,9 @@ If don't have a subscription at supermonitoring.com, you need to sign up for one
 1. Super Monitoring section in WordPress panel.
 
 == Changelog ==
+
+= 2.2 =
+* Minor bug fixes.
 
 = 2.1 =
 * Plugin name change.

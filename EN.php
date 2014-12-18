@@ -1,6 +1,6 @@
 <?
 // SETTINGS PAGE
-$lang['sett_0'] = "<strong>Super Monitoring</strong> plugin is almost ready. You only need to <a href=\"options-general.php?page=supermonitoring/supermonitoring.php\">configure it</a>.";
+$lang['sett_0'] = "<strong>Super Monitoring</strong> plugin is almost ready. You only need to <a href=\"options-general.php?page=website-monitoring/supermonitoring.php\">configure it</a>.";
 $lang['sett_1'] = 'Super Monitoring - plugin settings';
 $lang['sett_2'] = 'If you already have a subscription at www.supermonitoring.com, enter your token to integrate the service with WordPress panel.';
 $lang['sett_3'] = 'Authorization token:';
