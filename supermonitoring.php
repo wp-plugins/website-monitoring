@@ -5,7 +5,7 @@ Plugin URI: http://www.supermonitoring.com/p/wordpress-plugin
 Description: Monitor your blog's uptime with www.supermonitoring.com services - and have all the charts and tables displayed in your WordPress panel. 
 Author: SITEIMPULSE
 Author URI: http://www.siteimpulse.com/
-Version: 2.3
+Version: 2.4
 */
 
 if ( !defined( 'WP_CONTENT_URL' ) )
@@ -181,7 +181,8 @@ if ( !defined( 'WP_PLUGIN_DIR' ) )
 		}
 
 
-		if ( file_exists ( dirname ( __FILE__) . '/' . $data['language'] . '.php' ) ) require ( dirname ( __FILE__) . '/' . $data['language'] . '.php' );
+		if ( $data['language'] != '' && file_exists ( dirname ( __FILE__) . '/' . $data['language'] . '.php' ) ) require ( dirname ( __FILE__) . '/' . $data['language'] . '.php' );
+		else require ( dirname ( __FILE__) . '/EN.php' );
 
 	?>
 	<div class="wrap">
